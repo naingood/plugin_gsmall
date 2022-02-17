@@ -38,7 +38,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'GS_MALL_VERSION', '1.0.0' );
 require 'vendor/autoload.php';
 	$myUpdateChecker = Puc_v4_Factory :: buildUpdateChecker (
-	'http://example.com/path/to/details.json' ,
+	'https://github.com/Muhwildanferdiansyah/plugin_gsmall.git' ,
    __FILE__, // Path lengkap ke file plugin utama atau functions.php. 
    'gs-mall' 
 );
