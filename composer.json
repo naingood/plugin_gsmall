@@ -1,0 +1,19 @@
+{
+    "name": "yukdiorder/gs-mall",
+    "description": "plugin untuk custom griya samara mall",
+    "autoload": {
+        "psr-4": {
+            "Yukdiorder\\GsMall\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Isnainy Nasrullah",
+            "email": "nain.daftar@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "yahnis-elsts/plugin-update-checker": "^4.11"
+    }
+}
